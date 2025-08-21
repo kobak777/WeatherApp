@@ -1,0 +1,151 @@
+@media all and (max-width: 750px) {
+    .search_input {
+        max-width: 100%;
+    }
+    .weather__description {
+        padding-left: 0px;
+    }
+
+    .weather-info__list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .weather-info__item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .weather-info {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .weather__temperature {
+        font-size: 100px;
+    }
+
+    .weather__units {
+        font-size: 40px;
+        right: -25px;
+    }
+
+    .weather__icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .header__container {
+        flex-direction: column;
+        align-items: center;   
+        text-align: center;
+        gap: 12px;
+    }
+
+    .header__city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 18px;  
+    }
+
+    .city__inner {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 8px;
+    }
+
+    .header__units {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        font-size: 14px;  
+    }
+
+     .search {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+    }
+    .search_btn{
+        border-radius: 8px;  
+    }
+    .search_input{
+        width: 100%;
+        border-radius: 8px;    
+    }
+    .weather {
+        padding-top: 50px;
+    }
+    .weather__temperature {
+        font-size: 70px;
+    }
+    .weather__description {
+        padding-left: 0px;
+    }
+    .weather__units {
+        font-size: 28px;
+        right: -15px;
+    }
+
+    .weather__icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 250px) {
+    .header__city {
+        font-size: 14px;  
+    }
+    .city__change,
+    .city__location{
+        font-size: 15px;
+    }
+
+    .weather__description {
+        padding-left: 0px;
+    }
+
+    .header__units {
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .search_input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .search_btn {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+
+    .weather__temperature {
+        font-size: 50px;
+    }
+
+    .weather__units {
+        font-size: 20px;
+        right: -15px;
+    }
+
+    .weather__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .weather-info__item {
+        font-size: 11px;
+    }
+    .weather{
+        padding-top: 50px;
+    }
+}
