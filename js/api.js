@@ -14,6 +14,5 @@ export const getWeatherData = async (city) => {
     throw new Error(
       currentLang === "ru" ? "Город не найден!" : "City not found!"
     );
-
   return await response.json();
 };
