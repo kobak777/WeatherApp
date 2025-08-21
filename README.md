@@ -1,5 +1,5 @@
 <h1>WeatherApp</h1>
-<p>The app displays the current weather for the selected city or geolocation, supports manual city search, switching between Celsius and Fahrenheit, and two languages (Russian and English)</p>
+<p>The app displays the current weather for the selected city or geolocation, supports manual city search, switching between Celsius and Fahrenheit, and two languages (Russian and English). The app is adapted for mobile devices.</p>
 
 <a href="https://kobak777.github.io/WeatherApp/">Link</a>
 
